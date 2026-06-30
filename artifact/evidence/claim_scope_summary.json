@@ -1,0 +1,18 @@
+{
+  "boundary_terms_checked": [
+    "accuracy_metrics",
+    "manager_ranking",
+    "population_inference",
+    "prevalence",
+    "random_sample"
+  ],
+  "findings": [],
+  "required_scope_phrases": [
+    "not a random sample",
+    "not used to estimate ecosystem prevalence",
+    "consumer profile",
+    "benchmark_scoped_construct_validation",
+    "not_manager_ranking"
+  ],
+  "status": "pass"
+}

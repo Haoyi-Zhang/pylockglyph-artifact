@@ -1,0 +1,18 @@
+{
+  "commit": "9df5ebb1fbb09102300518855aaa35c0a84bb2bf",
+  "license_files": [
+    {
+      "path": "LICENSE_EVIDENCE.txt",
+      "sha256": "4ef9aefe3e0307c1f5858124d7f5e7c7fb8b51f99179953d2668b4c93a02f8af"
+    }
+  ],
+  "license_status": "Apache-2.0 verified from public repository LICENSE evidence",
+  "lockfile_path": "requirements.txt",
+  "lockfile_sha256": "f27546845a9c27d78532a383c5dc74deb8d6b7af02b9976aa91de9a15ebff3fd",
+  "manager_family": "pip-tools",
+  "manifest_path": "requirements.in",
+  "manifest_sha256": "abb7c923339ee2da3416ce9f7623e1b18a570e59cd9623e6022c643433a59fc3",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/marcopaz/is-service-up",
+  "subject_id": "piptools_marcopaz_is_service_up_9df5ebb"
+}

@@ -1,0 +1,1 @@
+MIT license evidence from the fixed-commit public repository LICENSE. The text identifies The MIT License, permission grant, copyright notice, and no-warranty clause.

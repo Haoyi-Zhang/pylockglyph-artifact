@@ -1,0 +1,178 @@
+\documentclass[10pt,conference]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={Anonymous Authors},pdftitle={PyLockGlyph}}
+\newcommand{\tool}{\textsc{PyLockGlyph}}
+\newcommand{\Oblig}{\mathcal{O}}
+\newcommand{\Req}{\mathcal{R}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\admit}{\mathsf{A}}
+\input{tables/macros.tex}
+\begin{document}
+\title{Supplementary Material: Evidence Obligations and Replay Checks}
+\author{Anonymous Authors}
+\maketitle
+
+\section{Scope and Reading Map}
+This supplement expands the evidence model, extraction rules, validation transformations, and replay checks used by the main paper. Its tables are derived from the same retained evidence summaries as the main paper.
+
+The anonymized evaluation package uses retained local evidence and cached license/acquisition records only. It regenerates evidence summaries and validation outcomes without network, resolver, advisory, build, cloud, or credential-dependent operations.
+
+\begin{table}[t]
+\caption{Replay layers and their purpose.}
+\centering\small
+\begin{tabularx}{\columnwidth}{p{0.34\columnwidth}X}
+\toprule
+Layer & Purpose\\
+\midrule
+Corpus capsules & preserve public source identity, commit, local license material, and byte digests\\
+Extraction records & store normalized package and manifest facts for each pair\\
+Admission outcomes & report profile-specific admitted/rejected decisions and missing evidence types\\
+Projection outcomes & compare narrow downstream assumptions with the full admission rule\\
+Construct checks & exercise weakening, preservation, adversarial, mutation, and parser-agreement relations\\
+Reported quantities & regenerate all reported counts, tables, and figure coordinates from retained evidence\\
+Digest summary & records sizes and SHA-256 digests for the reproducible evidence surface\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Evidence Obligations and Admission Rule}
+The evidence universe is
+\[
+\Oblig=\{I,V,S,H,R,D,G,\Delta\}.
+\]
+A manager adapter emits a parser state, normalized package records, manifest default and optional declarations, manager metadata, and an evidence vector $e\in\{0,1\}^8$. The inventory profile requires $\Req_{\mathrm{inv}}=\Oblig\setminus\{D\}$; the graph profile requires $\Req_{\mathrm{graph}}=\Oblig$. The executable rule is
+\[
+\begin{aligned}
+\admit_p(x)=1\quad\Longleftrightarrow\quad &\mathrm{parsed}(x)\land\mathrm{nonempty}(x)\\
+&\land\Req_p\subseteq\supp(e_x).
+\end{aligned}
+\]
+The decision contains the subject identifier, profile, parser state, all eight evidence bits, eligibility, and an ordered missing-type list.
+
+\begin{table*}[t]
+\caption{Operational evidence specification.}
+\centering\small
+\begin{tabularx}{\textwidth}{p{0.11\textwidth}X X}
+\toprule
+Type & Positive fact & Rejection condition\\
+\midrule
+$I$ identity & every normalized record has a canonical name & empty or conflicting identity in any record\\
+$V$ version & every record has a locked version or commit-resolved source & unconstrained/missing version or unpinned VCS source\\
+$S$ source & explicit registry/source, direct URL, VCS, or local source pointer & source depends only on an unstated default or machine configuration\\
+$H$ integrity & every record has hashes or a pinned/local fact & one or more records have no accepted fact\\
+$R$ epoch & schema, revision, content hash, or generated epoch & no serialized resolver-era marker\\
+$D$ edge & at least one package-to-package relation & only flat inventory, groups, order, or comments\\
+$G$ metadata & manager-specific generated metadata is parsed & format inferred only from container naming or manager label\\
+$\Delta$ agreement & all default manifest declarations occur in lock inventory & at least one default direct dependency is absent\\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\subsection{Finite properties}
+The replay enumerates all $2^8=256$ vectors for each of five manager labels and two profiles. For all \ProofDecisions{} decisions it checks exact set-inclusion equivalence, monotonicity, graph-to-inventory refinement, and typed non-substitution. Manager labels are included in the replay grid to expose accidental manager dependence; they are not inputs to the policy kernel.
+
+For each of five narrow projections, five managers, and two profiles, a constructive example retains exactly the projection-visible support while omitting one required evidence type. All 50 examples are accepted by the projection and rejected by the corresponding consumer profile. The table names the omitted evidence type and retained support.
+
+\section{Manager Extraction Contract}
+\begin{table*}[t]
+\caption{Adapter-specific evidence locations.}
+\centering\small
+\begin{tabularx}{\textwidth}{p{0.08\textwidth}p{0.18\textwidth}p{0.19\textwidth}X X}
+\toprule
+Manager & Manifest declarations & Package records & Metadata/epoch & Source, integrity, and relation evidence\\
+\midrule
+PDM & PEP~621 project dependencies & TOML package tables & metadata, strategy, groups, content hash & source/files objects; dependency tables\\
+pip-tools & input requirement lines & compiled pinned lines & generated header and command & explicit index directives; continuation hashes; no authoritative graph\\
+Pipenv & default package declarations & JSON default/develop objects & manager metadata, manifest hash, specification marker & source list, indexes, per-package hashes; no transitive graph\\
+Poetry & Poetry or PEP~621 declarations & TOML package tables & generated metadata, lock version, content hash & package sources, file hashes, dependency tables\\
+uv & PEP~621 project dependencies & TOML package tables & schema, revision, Python requirement & package sources, artifacts, dependency arrays\\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+Adapters preserve markers and groups for diagnosis but do not convert them into dependency edges. Optional groups are excluded from the default agreement set. Direct and VCS references are integrity facts only when pinned; local source pointers are local facts. Explicit-source evidence is intentionally strict: an omitted default registry is not reconstructed.
+
+The secondary parser has separate routines for manifests and every lock family. Agreement requires identical ordered package name/version records and identical evidence vectors. The comparison is performed for all \SubjectCount{} public subjects, not a sampled subset.
+
+\section{Corpus, Transformations, and Oracles}
+The study materializes \SubjectCount{} public pairs from 57 screened rows. Sixteen excluded rows are retained with their reason. The included manager distribution and profile outcomes are reproduced below.
+
+\begin{table}[t]
+\caption{Included pairs and outcomes.}
+\centering\small
+\input{tables/manager_profiles.tex}
+\end{table}
+
+Each subject capsule contains only the evidence pair, local license material, an acquisition record, and a provenance note. The acquisition record stores public origin, fixed revision, evidence-object identifiers, and SHA-256 digests. The capsule audit recomputes all digests and rejects a row if the pair or license is missing, a recorded identity differs, or any byte digest changes. Repository popularity and manager ownership are not inclusion criteria. The corpus is a purposive, benchmark-scoped construct-validation benchmark, not a probability sample.
+
+\subsection{Transformations and oracles}
+\begin{table*}[t]
+\caption{Executable mutation families.}
+\centering\small
+\begin{tabularx}{\textwidth}{p{0.07\textwidth}p{0.17\textwidth}X X}
+\toprule
+ID & Target & Transformation & Expected relation\\
+\midrule
+M01 & identity & blank/remove a normalized package identity & eligible $\rightarrow$ ineligible\\
+M02 & version & remove a locked version & eligible $\rightarrow$ ineligible\\
+M03 & source & remove recognized source tables, objects, URLs, and local source pointers & eligible $\rightarrow$ ineligible\\
+M04 & integrity & remove hashes and pinned/local facts & eligible $\rightarrow$ ineligible\\
+M05 & epoch & remove schema, revision, generated hash/header & eligible $\rightarrow$ ineligible\\
+M06 & edge & remove normalized dependency relations & graph eligible $\rightarrow$ ineligible\\
+M07 & metadata & clear manager-specific lock metadata & eligible $\rightarrow$ ineligible\\
+M08 & agreement & add a default declaration absent from the lock & eligible $\rightarrow$ ineligible\\
+M09 & partial integrity & uncover one package while retaining other hashes & eligible $\rightarrow$ ineligible\\
+M10 & source relocation & replace explicit source with no local fact & eligible $\rightarrow$ ineligible\\
+M11 & empty inventory & remove all package records & usable $\rightarrow$ unusable\\
+M12 & parser state & force an extraction error & any profile $\rightarrow$ ineligible\\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+Evidence removals start only from a base eligible for the targeted profile, remove one required typed coordinate, and call the normal decision kernel. Abstract vector attacks provide coverage for manager/profile cells without an eligible public base. Preservation relations reverse package order, reverse hash order, add irrelevant metadata, and reorder optional groups. Formatting transformations perform a whitespace-preserving copy of every public manifest/lockfile pair and then reparse the result.
+
+\begin{table}[t]
+\caption{Construct-validation outcomes. The intended relation is pass equals cases; bold pass counts mark suites with complete oracle agreement.}
+\centering\small
+\input{tables/controls.tex}
+\end{table}
+
+The case counts are derived from the admission rule and included bases. They are not manually selected: adding a required evidence type enlarges the truth table and non-substitution checks; adding an eligible public subject generates its profile-specific typed attacks and relations.
+
+\section{Diagnostic Results and Replay Audit}
+All included files preserve identity, version, resolver epoch, and manager metadata. Missing source identity is concentrated in PDM (4), pip-tools (15), and Poetry (9). Incomplete integrity occurs in 14 pip-tools and two Poetry pairs. Edges are absent from all pip-tools and Pipenv pairs and one PDM pair. Four pip-tools pairs fail default manifest agreement. These counts describe the included bytes and must not be interpreted as ecosystem prevalence or manager ranking.
+
+The five narrow projections produce \ProjectionOver{} over-admissions across \ProjectionDecisions{} paired decisions: parser, name/version, and metadata each contribute 61; integrity contributes 29; manifest-subset agreement contributes 53. Projection overlaps are counted separately because each contract hides a different set of profile requirements.
+
+\begin{table}[t]
+\caption{Consumer-proxy comparison. Rows are read within each consumer; lower over-admission is stronger, and bold zero marks no over-admitted subject/profile cells for that proxy.}
+\centering\small
+\input{tables/consumer_baselines.tex}
+\end{table}
+
+The package table contains \PackageCount{} records with name, version, hash count, source anchor, integrity fact, dependency count, groups, and marker. It permits a false Boolean coordinate to be localized to concrete records. The decision kernel never branches on package count, manager, public origin, subject identifier, or storage location.
+
+\subsection{Replay guarantee}
+The offline replay is an evidence audit rather than a procedural recipe. It reconstructs the evidence tables from retained capsules, rechecks the admission kernel, regenerates the quantities used by the main paper and supplement, and verifies that reported values agree with those quantities. A successful replay records the same high-level study status, evidence-number consistency, package layout, and digest closure.
+
+The expected high-level values are \SubjectCount{} subjects, \PackageCount{} package records, \InventoryEligible{} inventory-eligible pairs, \GraphEligible{} graph-eligible pairs, \ProjectionOver{} projection over-admissions, \ControlledCases{} controlled cases, and \ProofDecisions{} finite decisions. Timing and PDF object bytes may vary by host. Admission results, row-level decisions, and SHA-256 evidence digests are host-independent.
+
+\subsection{Audit invariants}
+The package audit enforces a small public surface, rejects transient build products and environment-specific locations, verifies source syntax, checks public interfaces, and recomputes corpus-capsule digests. The document audit checks page allocation, citation closure, anonymous metadata, and evidence-number consistency.
+
+The replay manifest is written only after the study, validation suites, document build, and audits pass. Each row records an anonymized package entry, byte size, and SHA-256 digest. An interrupted or inconsistent replay cannot produce the passing summary, preventing a stale success marker from masking incomplete evidence.
+
+The semantic invariant is fail-closed: missing inputs, parser errors, unknown profiles, and missing evidence never become eligible. The packaging invariant is also fail-closed: a missing required output, unexpected top-level entry, or document inconsistency makes the replay return a nonzero status.
+
+
+\section{Rejected Pairs and Claim Scope}
+A rejected pair is not a package-manager failure; it lacks a fact required by the named consumer profile. The counts validate the included capsules, profiles, and admission rule, not prevalence, manager ranking, or predictive accuracy.
+
+\end{document}

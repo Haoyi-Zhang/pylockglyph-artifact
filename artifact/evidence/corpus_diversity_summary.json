@@ -1,0 +1,30 @@
+{
+  "effective_manager_count": 4.510741,
+  "entropy_bits": 2.173364,
+  "excluded_rows": 16,
+  "findings": [],
+  "hhi": 0.244497,
+  "included_rows": 41,
+  "license_evidence_rows": 41,
+  "manager_counts": {
+    "pdm": 5,
+    "pip-tools": 15,
+    "pipenv": 5,
+    "poetry": 10,
+    "uv": 6
+  },
+  "manager_project_subjects": 3,
+  "manager_shares": {
+    "pdm": 0.121951,
+    "pip-tools": 0.365854,
+    "pipenv": 0.121951,
+    "poetry": 0.243902,
+    "uv": 0.146341
+  },
+  "max_manager": "pip-tools",
+  "max_manager_share": 0.365854,
+  "screened_rows": 57,
+  "status": "pass",
+  "subjects": 41,
+  "unique_repositories": 41
+}

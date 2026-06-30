@@ -1,0 +1,18 @@
+{
+  "commit": "fdf0551634e8423ad591dc5ed90a50a28731da86",
+  "license_files": [
+    {
+      "path": "LICENSE_EVIDENCE.txt",
+      "sha256": "c4f83a357adc5bd8f0e5ded23a0b6dd2f4d642c639b2e93759b654367371cd56"
+    }
+  ],
+  "license_status": "MIT verified from public repository LICENSE evidence",
+  "lockfile_path": "Pipfile.lock",
+  "lockfile_sha256": "d3b3ed1f7ec5d4d9f04747d63483da6fec73f93d640860b5df6efd09070bf1ff",
+  "manager_family": "pipenv",
+  "manifest_path": "Pipfile",
+  "manifest_sha256": "9c32d9bfe6b9d2cb63a120848e3eebe897dbab253ad8854b1acecfb5b7a35643",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/joshfinnie/papi",
+  "subject_id": "pipenv_joshfinnie_papi_fdf0551"
+}

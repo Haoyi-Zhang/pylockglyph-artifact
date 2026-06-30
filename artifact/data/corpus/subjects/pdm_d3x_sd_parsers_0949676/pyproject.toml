@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools_scm[toml]>=6.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sd-parsers"
+description = "a library to read metadata from images created by Stable Diffusion"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pillow>=10.4.0",
+]
+dynamic = ["version"]
+license = {file = "LICENSE.txt"}
+authors = [
+    {name = "d3x-at"},
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Scientific/Engineering :: Image Processing",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+repository = "https://github.com/d3x-at/sd-parsers"
+
+[tool]
+[tool.setuptools_scm]
+[tool.setuptools]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.2",
+    "ruff>=0.0.292",
+    "types-Pillow>=10.2.0.20240520",
+]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "DEBUG"
+log_format = "%(levelname)s %(filename)s %(message)s"

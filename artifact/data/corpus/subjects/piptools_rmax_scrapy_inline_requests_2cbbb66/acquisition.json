@@ -1,0 +1,18 @@
+{
+  "commit": "2cbbb66e6e97260b7e126aa9d8ecde1393a554c9",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "891b6bcd1f837c4b4fa5a78a944c6b0f2e81168a12630246563f2addd84ef7a0"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE",
+  "lockfile_path": "dev-requirements.txt",
+  "lockfile_sha256": "0798580792aa2144b60429ac215333487171c0c2e7792bcb2e5fb6261e38dc13",
+  "manager_family": "pip-tools",
+  "manifest_path": "dev-requirements.in",
+  "manifest_sha256": "c2dadceae5573e30c1426e436907042c041260f3950901651b03c7bf1916ea95",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/rmax/scrapy-inline-requests",
+  "subject_id": "piptools_rmax_scrapy_inline_requests_2cbbb66"
+}

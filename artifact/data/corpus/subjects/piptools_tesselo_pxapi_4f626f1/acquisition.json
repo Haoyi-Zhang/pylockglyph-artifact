@@ -1,0 +1,18 @@
+{
+  "commit": "4f626f14ea4fd8c1d293151148999ce40639bdd3",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "1f25402ae15835856be7ee3593ba5b51bc75af5fbf3c6889daf358a1678db72f"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE",
+  "lockfile_path": "dev_requirements.txt",
+  "lockfile_sha256": "663267736e61eb4f353654a705105d14f621dc79998bfa7a0ed54269d7c6946e",
+  "manager_family": "pip-tools",
+  "manifest_path": "dev_requirements.in",
+  "manifest_sha256": "030b177f83f704e2d50d654259c4ebcd9fca7fd0825f21b1106128ecb26f6ffc",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/tesselo/pxapi",
+  "subject_id": "piptools_tesselo_pxapi_4f626f1"
+}

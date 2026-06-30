@@ -1,0 +1,18 @@
+{
+  "commit": "5a544767fba35171a0b457271439088839eca1e6",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "3707836553ec941019173960072175e7c6fce464747f9fed2d082ad4d4b8f13a"
+    }
+  ],
+  "license_status": "MIT verified from repository page/raw LICENSE",
+  "lockfile_path": "uv.lock",
+  "lockfile_sha256": "26bd05d77da083fd6c0b509942a5a2da5cf20fb4860eea9d1b7068af6da46b92",
+  "manager_family": "uv",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "f96dd2882e47a4b5351abff860bf5d9cb78ab2efd8a92d2dec1d0e6fa4d487f9",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/universal-mcp/github",
+  "subject_id": "uv_universal_mcp_github_5a54476"
+}

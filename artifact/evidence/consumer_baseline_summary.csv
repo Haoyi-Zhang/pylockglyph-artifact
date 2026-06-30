@@ -1,0 +1,41 @@
+consumer,projection,projection_label,decisions,baseline_accepts,consumer_accepts,baseline_over_admits,baseline_under_admits
+sbom_inventory,parser,Parser succeeds,41,41,13,28,0
+sbom_inventory,inventory,Name/version inventory,41,41,13,28,0
+sbom_inventory,metadata,Manager metadata,41,41,13,28,0
+sbom_inventory,integrity,Integrity evidence,41,25,13,12,0
+sbom_inventory,manifest_subset,Manifest subset,41,37,13,24,0
+sbom_inventory,source_identity,Source+identity,41,13,13,0,0
+sbom_inventory,resolver_metadata,Resolver metadata,41,41,13,28,0
+sbom_inventory,sbom_minimal,SBOM-minimal proxy,41,13,13,0,0
+sbom_inventory,vulnerability_graph,Vulnerability-graph proxy,41,8,13,0,5
+sbom_inventory,reproducible_lock,Reproducible-lock proxy,41,13,13,0,0
+vulnerability_matching,parser,Parser succeeds,41,41,8,33,0
+vulnerability_matching,inventory,Name/version inventory,41,41,8,33,0
+vulnerability_matching,metadata,Manager metadata,41,41,8,33,0
+vulnerability_matching,integrity,Integrity evidence,41,25,8,17,0
+vulnerability_matching,manifest_subset,Manifest subset,41,37,8,29,0
+vulnerability_matching,source_identity,Source+identity,41,13,8,5,0
+vulnerability_matching,resolver_metadata,Resolver metadata,41,41,8,33,0
+vulnerability_matching,sbom_minimal,SBOM-minimal proxy,41,13,8,5,0
+vulnerability_matching,vulnerability_graph,Vulnerability-graph proxy,41,8,8,0,0
+vulnerability_matching,reproducible_lock,Reproducible-lock proxy,41,13,8,5,0
+reproducible_input,parser,Parser succeeds,41,41,13,28,0
+reproducible_input,inventory,Name/version inventory,41,41,13,28,0
+reproducible_input,metadata,Manager metadata,41,41,13,28,0
+reproducible_input,integrity,Integrity evidence,41,25,13,12,0
+reproducible_input,manifest_subset,Manifest subset,41,37,13,24,0
+reproducible_input,source_identity,Source+identity,41,13,13,0,0
+reproducible_input,resolver_metadata,Resolver metadata,41,41,13,28,0
+reproducible_input,sbom_minimal,SBOM-minimal proxy,41,13,13,0,0
+reproducible_input,vulnerability_graph,Vulnerability-graph proxy,41,8,13,0,5
+reproducible_input,reproducible_lock,Reproducible-lock proxy,41,13,13,0,0
+full_dependency_graph,parser,Parser succeeds,41,41,8,33,0
+full_dependency_graph,inventory,Name/version inventory,41,41,8,33,0
+full_dependency_graph,metadata,Manager metadata,41,41,8,33,0
+full_dependency_graph,integrity,Integrity evidence,41,25,8,17,0
+full_dependency_graph,manifest_subset,Manifest subset,41,37,8,29,0
+full_dependency_graph,source_identity,Source+identity,41,13,8,5,0
+full_dependency_graph,resolver_metadata,Resolver metadata,41,41,8,33,0
+full_dependency_graph,sbom_minimal,SBOM-minimal proxy,41,13,8,5,0
+full_dependency_graph,vulnerability_graph,Vulnerability-graph proxy,41,8,8,0,0
+full_dependency_graph,reproducible_lock,Reproducible-lock proxy,41,13,8,5,0

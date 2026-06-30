@@ -1,0 +1,18 @@
+{
+  "commit": "f80d175301e0a2ad3178e6ded60a6a3d8525d9d9",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "d111aba5be4447ea30a048bdf8cd5c7462121f5c07ffa6b33cea2d19ed2df687"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE",
+  "lockfile_path": "docs-requirements.txt",
+  "lockfile_sha256": "24de142ac1212c17b0379944c2d6a6fdfc1724587d9768304ddd396d65835f94",
+  "manager_family": "pip-tools",
+  "manifest_path": "docs-requirements.in",
+  "manifest_sha256": "26704aa7a9fb7bd1e074c0b514d45d006caf987ee480bdfd869a3a3485fdf992",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/kiwicom/konfetti",
+  "subject_id": "piptools_kiwicom_konfetti_f80d175"
+}

@@ -1,0 +1,17 @@
+{
+  "direct_tool_run_scripts": 19,
+  "direct_tool_run_status": "pass",
+  "findings": [],
+  "public_corpus_metadata_boundary": {
+    "public_subject_files_with_package_description_phrases": 1,
+    "public_subject_files_with_upstream_email_fields": 15
+  },
+  "python_files": 43,
+  "python_source_lines": 4305,
+  "status": "pass",
+  "tool_scripts": 19,
+  "top_level": [
+    "artifact",
+    "paper"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "982dcf2015c80a280f1a093e32977cb71d4ea7aa",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "a77754255992dcae7ccf1c1e7c7bc0954903ef79d2409f28d3b0967b97eab41c"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE",
+  "lockfile_path": "requirements.txt",
+  "lockfile_sha256": "9e287e64d6123cb148861c1d17d9fda76ea76bcd30a1955484f47930e8b5ae6b",
+  "manager_family": "pip-tools",
+  "manifest_path": "requirements.in",
+  "manifest_sha256": "c1ee574e8d3729747167cb09c4d681f75d098fb07ded85119fcc8676aed4bfd7",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/DallasMorningNews/django-datafreezer",
+  "subject_id": "piptools_dallasnews_django_datafreezer_982dcf2"
+}

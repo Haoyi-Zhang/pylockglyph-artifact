@@ -1,0 +1,18 @@
+{
+  "commit": "b1cf4ae38354638e5e649610968ac4f1539f1287",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "d3f15fb9a9306ea13a698b5a56138769454185800390a94d12280045e8ec0821"
+    }
+  ],
+  "license_status": "MIT verified from repository page/raw LICENSE",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "5ae1df7edcd129cfafad63e6bbfd1156a011838aaf5e866882beaea3e1a76b0b",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "e2c2b8c1edbc38553eebc9367dbf040c76a4d722e51b40ca84c6c5861e016717",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/redcap-tools/PyCap",
+  "subject_id": "poetry_pycap_b1cf4ae"
+}

@@ -1,0 +1,105 @@
+{
+  "contract": "formal evidence-obligation proxy",
+  "external_tool_execution_claim": false,
+  "non_goal": "not an external tool execution baseline",
+  "consumers": [
+    {
+      "consumer": "sbom_inventory",
+      "required_evidence": [
+        "identity",
+        "version",
+        "source",
+        "manager_metadata",
+        "manifest_agreement"
+      ],
+      "obligation_rationale": {
+        "identity": "A component inventory must name each package.",
+        "version": "A component inventory must bind each package to a resolved coordinate.",
+        "source": "An auditable inventory needs the package source or index namespace.",
+        "manager_metadata": "The lock manager metadata identifies how the lock semantics are interpreted.",
+        "manifest_agreement": "The lock inventory must cover the manifest's default direct requirements."
+      },
+      "references": [
+        "https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom",
+        "https://cyclonedx.org/use-cases/software-components/",
+        "https://spdx.github.io/spdx-spec/v2.3/package-information/"
+      ]
+    },
+    {
+      "consumer": "vulnerability_matching",
+      "required_evidence": [
+        "identity",
+        "version",
+        "source",
+        "dependency_edge",
+        "manager_metadata",
+        "manifest_agreement"
+      ],
+      "obligation_rationale": {
+        "identity": "A vulnerability lookup key must include a package name.",
+        "version": "A vulnerability lookup key must include a resolved version.",
+        "source": "The package source disambiguates ecosystem and namespace.",
+        "dependency_edge": "Reachability-aware vulnerability matching needs dependency relations.",
+        "manager_metadata": "The lock manager metadata identifies the dependency semantics.",
+        "manifest_agreement": "The lock must cover the manifest requirements being audited."
+      },
+      "references": [
+        "https://ossf.github.io/osv-schema/",
+        "https://github.com/package-url/purl-spec"
+      ]
+    },
+    {
+      "consumer": "reproducible_input",
+      "required_evidence": [
+        "identity",
+        "version",
+        "source",
+        "integrity",
+        "resolver_epoch",
+        "manager_metadata",
+        "manifest_agreement"
+      ],
+      "obligation_rationale": {
+        "identity": "Reconstruction requires a package name.",
+        "version": "Reconstruction requires an exact resolved coordinate.",
+        "source": "Reconstruction requires a source or index anchor.",
+        "integrity": "Reconstruction requires hash, pinned source, or local-source integrity evidence.",
+        "resolver_epoch": "Reconstruction depends on the lock format or resolver epoch.",
+        "manager_metadata": "Manager metadata identifies lock semantics and groups.",
+        "manifest_agreement": "The lock must cover the manifest requirements being reconstructed."
+      },
+      "references": [
+        "https://cyclonedx.org/use-cases/integrity-verification/",
+        "https://reproducible-builds.org/specs/source-date-epoch/"
+      ]
+    },
+    {
+      "consumer": "full_dependency_graph",
+      "required_evidence": [
+        "identity",
+        "version",
+        "source",
+        "integrity",
+        "resolver_epoch",
+        "dependency_edge",
+        "manager_metadata",
+        "manifest_agreement"
+      ],
+      "obligation_rationale": {
+        "identity": "A graph node must name a package.",
+        "version": "A graph node must bind a package to a resolved coordinate.",
+        "source": "A graph node needs source or namespace disambiguation.",
+        "integrity": "A graph audit needs integrity evidence for serialized package records.",
+        "resolver_epoch": "Graph interpretation depends on the lock format or resolver epoch.",
+        "dependency_edge": "A dependency graph needs serialized dependency relations.",
+        "manager_metadata": "Manager metadata identifies lock semantics and groups.",
+        "manifest_agreement": "The graph must cover the manifest requirements being analyzed."
+      },
+      "references": [
+        "https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom",
+        "https://cyclonedx.org/specification/overview/",
+        "https://ossf.github.io/osv-schema/"
+      ]
+    }
+  ]
+}

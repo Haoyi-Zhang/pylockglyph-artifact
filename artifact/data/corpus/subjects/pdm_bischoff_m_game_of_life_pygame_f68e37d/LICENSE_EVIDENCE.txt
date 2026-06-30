@@ -1,0 +1,4 @@
+MIT license evidence for commit f68e37ded33aa14c0fc20af5227c5fb245092167.
+Repository file pyproject.toml declares:
+license = { text = "MIT" }
+This evidence file is included because no standalone LICENSE file was returned by the GitHub connector at this commit. The subject is retained as a license-metadata-evidenced public subject and explicitly marked as such in the corpus ledger.

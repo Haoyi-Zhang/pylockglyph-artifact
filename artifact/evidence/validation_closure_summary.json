@@ -1,0 +1,35 @@
+{
+  "external_disagreement_analysis": {
+    "analysis_path": "evidence/external_disagreement_analysis.md",
+    "classification_counts": {
+      "external_tool_more_permissive_than_obligation_proxy": 7,
+      "external_tool_parse_or_environment_failure": 1
+    },
+    "disagreements": 8
+  },
+  "findings": [],
+  "known_limitations": {
+    "limitations": 5,
+    "path": "evidence/known_limitations.md"
+  },
+  "negative_control_provenance": {
+    "derived_expected_reject_cases": 725,
+    "path": "evidence/negative_control_provenance.md",
+    "synthetic_expected_reject_cases": 0
+  },
+  "semantic_spotcheck": {
+    "manager_counts": {
+      "pdm": 12,
+      "pip-tools": 12,
+      "pipenv": 11,
+      "poetry": 12,
+      "uv": 12
+    },
+    "parsed_subjects_compared": 12,
+    "row_failures": 0,
+    "rows_path": "evidence/semantic_spotcheck_records.csv",
+    "sampled_records": 59,
+    "subject_evidence_agreement": 12
+  },
+  "status": "pass"
+}

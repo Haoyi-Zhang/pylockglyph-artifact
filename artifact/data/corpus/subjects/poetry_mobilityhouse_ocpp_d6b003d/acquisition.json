@@ -1,0 +1,18 @@
+{
+  "commit": "d6b003d9f3ab411994f67d428ea51a82991f49e0",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "745f1f8b5830ee014fac781daa96b72caa260a44b46c61af1b26dc820ca9db4e"
+    }
+  ],
+  "license_status": "MIT verified from raw LICENSE",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "bc6c4a8774891395694fccc03fa7c900deb42a2fb7903d1f7820627c29f2af4a",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "acf797df945f99a6bb083fd607affaf7cd83fafa3d6ddc672bbc0a7dcb7bea25",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/mobilityhouse/ocpp",
+  "subject_id": "poetry_mobilityhouse_ocpp_d6b003d"
+}

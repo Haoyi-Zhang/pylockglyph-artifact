@@ -1,0 +1,20 @@
+{
+  "benchmark_role": "construct_validation",
+  "consumer_contract": "formal evidence-obligation proxy",
+  "consumer_contracts": 4,
+  "consumer_reference_count": 10,
+  "controlled_cases": 971,
+  "external_tool_execution_claim": false,
+  "findings": [],
+  "max_manager_share": 0.365854,
+  "not_claims": [
+    "comprehensive_ecosystem_coverage",
+    "ecosystem_prevalence",
+    "external_tool_success_rate",
+    "manager_ranking",
+    "random_sample"
+  ],
+  "proof_decisions": 2560,
+  "status": "pass",
+  "subjects": 41
+}

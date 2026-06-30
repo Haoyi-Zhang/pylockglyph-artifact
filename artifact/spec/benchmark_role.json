@@ -1,0 +1,16 @@
+{
+  "benchmark_role": "construct_validation",
+  "positive_claim": "The benchmark validates admission-rule behavior over byte-complete public Python manifest/lockfile capsules.",
+  "not_claims": [
+    "ecosystem_prevalence",
+    "manager_ranking",
+    "random_sample",
+    "comprehensive_ecosystem_coverage",
+    "external_tool_success_rate"
+  ],
+  "minimum_subjects": 40,
+  "minimum_controlled_cases": 900,
+  "minimum_proof_decisions": 2560,
+  "minimum_manager_families": 5,
+  "maximum_manager_share": 0.40
+}

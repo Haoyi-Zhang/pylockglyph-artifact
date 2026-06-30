@@ -1,0 +1,18 @@
+{
+  "commit": "1d3e21798ebf2420b62c1eded4ce94453ba15151",
+  "license_files": [
+    {
+      "path": "COPYING",
+      "sha256": "6eb6aa6a2f338578b10f3bd929857690ad257284dfcd21c9d5e279d0b30b102b"
+    }
+  ],
+  "license_status": "MIT verified from COPYING",
+  "lockfile_path": "requirements.txt",
+  "lockfile_sha256": "fb43a1cb68cefff05858b14ffe22fa403226f1dee7900a648eb3d51370b1587a",
+  "manager_family": "pip-tools",
+  "manifest_path": "requirements.in",
+  "manifest_sha256": "b2b27dda59f8e58093709a666404dffdc389b47ab33a83026c4e6ea236417f56",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/python/pyperformance",
+  "subject_id": "piptools_python_pyperformance_1d3e217"
+}

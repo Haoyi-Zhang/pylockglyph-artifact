@@ -1,0 +1,18 @@
+{
+  "commit": "e615df93474fdd7b1c5d798c8d521499b3f87c42",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "15158160284aeab4802c9e6670eef5de78a0d9d10b2cebf63a2ea1349426bac3"
+    }
+  ],
+  "license_status": "MIT verified from raw LICENSE",
+  "lockfile_path": "uv.lock",
+  "lockfile_sha256": "58098ab82af12aaa9f016a907df0910446b89dffb2f7ba96c37ea0a7bbc56f9e",
+  "manager_family": "uv",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "8b1aefbc6bd8e5c4876ab942852244bbc10d99ab2d6bf1616b17b063b2d3781f",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/pyprojectx/pyprojectx",
+  "subject_id": "uv_pyprojectx_pyprojectx_e615df9"
+}

@@ -1,0 +1,25 @@
+{
+  "bytes_hashed": 5732175,
+  "component_status": {
+    "baseline_contract_summary": "pass",
+    "benchmark_scope_contract_summary": "pass",
+    "claim_scope_summary": "pass",
+    "corpus_diversity_summary": "pass",
+    "external_validation_summary": "pass",
+    "negative_control_summary": "pass",
+    "overfitting_sentinel_summary": "pass",
+    "paper_audit_summary": "pass",
+    "repository_audit_summary": "pass",
+    "study_summary": "pass",
+    "under_admission_summary": "pass",
+    "unit_test_summary": "pass",
+    "validation_closure_summary": "pass"
+  },
+  "elapsed_seconds": 11.133,
+  "files_hashed": 319,
+  "manifest_sha256": "459decd7011b10182efa45fe272d1b868a6caee2201e6f10b0e2fade53402254",
+  "status": "pass",
+  "volatile_unhashed_files": [
+    "artifact/evidence/timing_summary.json"
+  ]
+}

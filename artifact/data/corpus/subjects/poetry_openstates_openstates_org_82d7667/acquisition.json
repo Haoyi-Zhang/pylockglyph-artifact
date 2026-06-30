@@ -1,0 +1,18 @@
+{
+  "commit": "82d766722ab3ff3a0e0de2be0271a863c0cbc0ca",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "9f902735b52e08dcd9eae02b6316d483e6e3dbf4c11d14624ed66a844f87ad80"
+    }
+  ],
+  "license_status": "MIT verified from raw LICENSE",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "b11791d10a52440b1c97e0bda324f18b66e5aa4696dffbcf5ea7c6a0bb50598d",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "3821d48391445bc75a5cebd7f9cd5f3906ae62159ffc8e410b835e8f37b2fe9b",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/openstates/openstates.org",
+  "subject_id": "poetry_openstates_openstates_org_82d7667"
+}

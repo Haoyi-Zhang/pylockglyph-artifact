@@ -1,0 +1,18 @@
+{
+  "commit": "7428278a20e31d2534b5a12d92fffce1b4c90399",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    }
+  ],
+  "license_status": "Apache-2.0 verified from raw LICENSE",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "e1b4b5863356258fb9c322a8fe6cb442a95882a89df130661a940148ac14dad6",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "8b371bd787df3cc65149ab921d63cdfa2990c0e08c898274b9a8d834b1db4b3c",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/interledger/open-payments-python-sdk",
+  "subject_id": "poetry_interledger_open_payments_python_sdk_7428278"
+}

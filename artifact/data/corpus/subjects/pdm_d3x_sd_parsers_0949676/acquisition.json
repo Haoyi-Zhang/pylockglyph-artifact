@@ -1,0 +1,18 @@
+{
+  "commit": "0949676c24a5bbaf26ef0aa8c362132b7b27cb5b",
+  "license_files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "1142517690bd3e72c1348ba3559ab9cd880e8b5bbeab3a9749e63ef880d9ef0a"
+    }
+  ],
+  "license_status": "MIT verified from repository page/raw LICENSE.txt",
+  "lockfile_path": "pdm.lock",
+  "lockfile_sha256": "dab07b413c2b994cd192068ee2f985ea3e7e2c9a2697d1070cb744a544e3cb4c",
+  "manager_family": "pdm",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "6aa87b2dabc185b38edef075b2be667b5eb98611000b9621538d4acde836f41b",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/d3x-at/sd-parsers",
+  "subject_id": "pdm_d3x_sd_parsers_0949676"
+}

@@ -1,0 +1,140 @@
+{
+  "failures": [],
+  "results": [
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 265,
+      "tool": "analyze_under_admissions.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 136,
+      "tool": "audit_baseline_contract.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 143,
+      "tool": "audit_benchmark_scope_contract.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 130,
+      "tool": "audit_claim_scope.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 134,
+      "tool": "audit_command_surface.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 135,
+      "tool": "audit_corpus_diversity.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 331,
+      "tool": "audit_external_validation.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 136,
+      "tool": "audit_negative_controls.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 139,
+      "tool": "audit_overfitting_sentinel.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 124,
+      "tool": "audit_paper.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 129,
+      "tool": "audit_repository.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 233,
+      "tool": "audit_validation_closure.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 256,
+      "tool": "build_replay_manifest.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 403,
+      "tool": "check_pair.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 167,
+      "tool": "paper_data.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 349,
+      "tool": "run_external_validation.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 122,
+      "tool": "run_study.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 122,
+      "tool": "run_tests.py"
+    },
+    {
+      "returncode": 0,
+      "status": "pass",
+      "stderr_bytes": 0,
+      "stdout_bytes": 138,
+      "tool": "verify_replay.py"
+    }
+  ],
+  "status": "pass",
+  "tools": 19
+}

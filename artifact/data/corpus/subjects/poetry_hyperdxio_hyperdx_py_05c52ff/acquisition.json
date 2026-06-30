@@ -1,0 +1,18 @@
+{
+  "commit": "05c52ffa7e352b0ca5c7117636bcd3a22b70b43c",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "license_status": "Apache-2.0 verified from raw LICENSE",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "2ddf4c696dbe0b5086118aaa6c899db1e78a2e0fa885bfe1b24ec7d8834d9d5b",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "c0a340d5cd6e53566e726137281a2e381da5424020f0109c14e26c8ae126b51e",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/hyperdxio/hyperdx-py",
+  "subject_id": "poetry_hyperdxio_hyperdx_py_05c52ff"
+}

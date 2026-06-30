@@ -1,0 +1,11 @@
+projection,decisions,projection_accepts,certificate_accepts,projection_over_admits
+parser,82,82,21,61
+inventory,82,82,21,61
+metadata,82,82,21,61
+integrity,82,50,21,29
+manifest_subset,82,74,21,53
+source_identity,82,26,21,5
+resolver_metadata,82,82,21,61
+sbom_minimal,82,26,21,5
+vulnerability_graph,82,16,21,0
+reproducible_lock,82,26,21,5

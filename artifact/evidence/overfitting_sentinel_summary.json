@@ -1,0 +1,32 @@
+{
+  "accuracy_style_score_headers": [],
+  "controlled_cases": 971,
+  "controlled_suite_count": 6,
+  "controlled_suites": [
+    "adversarial_vectors",
+    "file_removals",
+    "formatting",
+    "metamorphic",
+    "mutations",
+    "parser_agreement"
+  ],
+  "expected_reject_cases": 725,
+  "findings": [],
+  "method_files_scanned": 11,
+  "negative_false_accepts": 0,
+  "negative_obligations_covered": [
+    "dependency_edge",
+    "identity",
+    "integrity",
+    "manager_metadata",
+    "manifest_agreement",
+    "resolver_epoch",
+    "source",
+    "version"
+  ],
+  "perfect_contract_suites": 6,
+  "status": "pass",
+  "subject_specific_branch_hits": [],
+  "subject_specific_literal_hits": [],
+  "subjects": 41
+}

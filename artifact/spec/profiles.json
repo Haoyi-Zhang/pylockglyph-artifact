@@ -1,0 +1,21 @@
+{
+  "inventory": [
+    "identity",
+    "version",
+    "source",
+    "integrity",
+    "resolver_epoch",
+    "manager_metadata",
+    "manifest_agreement"
+  ],
+  "dependency_graph": [
+    "identity",
+    "version",
+    "source",
+    "integrity",
+    "resolver_epoch",
+    "dependency_edge",
+    "manager_metadata",
+    "manifest_agreement"
+  ]
+}

@@ -1,0 +1,1 @@
+Apache-2.0 license evidence from the fixed-commit public repository LICENSE. The text begins with Apache License Version 2.0 and contains the standard definitions and grant text opening.

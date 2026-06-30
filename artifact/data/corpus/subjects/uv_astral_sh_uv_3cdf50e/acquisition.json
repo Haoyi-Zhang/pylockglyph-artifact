@@ -1,0 +1,18 @@
+{
+  "commit": "3cdf50e0924f1ace7a92ddbac98b12a958b87688",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "860e3d7a86b84e6a7012c7a635fc64df475cebc6cce34dfeb73a5982ec58176c"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE-MIT; Apache-2.0 verified from LICENSE-APACHE",
+  "lockfile_path": "uv.lock",
+  "lockfile_sha256": "304ad88e56bfb6a3a9df28585e3652826a561dfde96b3f4eaee2a8192e7adfea",
+  "manager_family": "uv",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "b6aad18069386eb5188044a6c9ee9482a2d48ff85b23593a92d99068175aa492",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/astral-sh/uv",
+  "subject_id": "uv_astral_sh_uv_3cdf50e"
+}

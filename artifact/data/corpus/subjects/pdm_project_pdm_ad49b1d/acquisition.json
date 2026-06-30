@@ -1,0 +1,18 @@
+{
+  "commit": "ad49b1dfc002621be9d5d7c176d5508c6406464c",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "9db7ebdae98d7719291030f5b26bed1e798cf9dcbd1850d498714d859908f220"
+    }
+  ],
+  "license_status": "MIT verified from repository/raw LICENSE",
+  "lockfile_path": "pdm.lock",
+  "lockfile_sha256": "19225f7ef1b1f41f418b5bf47d5aa42187c6a98362b8206af0bd6ac5a3ab63f6",
+  "manager_family": "pdm",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "c439bdf08572312411019e39a00a207447422a4e656874e9532ce1450edb719e",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/pdm-project/pdm",
+  "subject_id": "pdm_project_pdm_ad49b1d"
+}

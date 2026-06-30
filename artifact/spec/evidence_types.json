@@ -1,0 +1,10 @@
+{
+  "identity": "Every normalized package record has a nonempty package name.",
+  "version": "Every normalized package record has an exact resolved coordinate.",
+  "source": "The local pair explicitly anchors an index, URL, VCS source, or local source.",
+  "integrity": "Every record has hashes, a pinned source, or a local source.",
+  "resolver_epoch": "The lock serializes the format or resolver epoch needed for interpretation.",
+  "dependency_edge": "The lock serializes at least one package dependency relation.",
+  "manager_metadata": "Manager-specific lock metadata is present.",
+  "manifest_agreement": "All default direct manifest requirements occur in the lock inventory."
+}

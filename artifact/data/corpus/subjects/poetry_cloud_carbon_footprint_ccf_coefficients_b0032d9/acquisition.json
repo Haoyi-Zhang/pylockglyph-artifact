@@ -1,0 +1,18 @@
+{
+  "commit": "b0032d928c787cf76cecd7d1d611c5b46f366e29",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "license_status": "Apache-2.0 verified from raw LICENSE",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "23f18536713ab9b086bb5ba6fa1f91853a8c0b44460e5ade1a5f8f85efdd88e4",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "448d213d5259b07365135fab90c3cbd2a03d2e8273a10e0232ce07ce07a779f4",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/cloud-carbon-footprint/ccf-coefficients",
+  "subject_id": "poetry_cloud_carbon_footprint_ccf_coefficients_b0032d9"
+}

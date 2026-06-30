@@ -1,0 +1,18 @@
+{
+  "commit": "885f248023a4877740b4f4ed6910cc73e7ee3caa",
+  "license_files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "5f12a5ce5a1f306f7b3b21caac50a68cc08ff46d7b2a04cf708d9e67f9b27cfc"
+    }
+  ],
+  "license_status": "MIT-style license verified from raw LICENSE.md",
+  "lockfile_path": "uv.lock",
+  "lockfile_sha256": "dae3da2410c65d5c2e19ce55d0e09b24bfed155b31a8383fd482ee5f16b0850b",
+  "manager_family": "uv",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "c5b3d4f8adf5ec7ae2bcc1b6fa27ef3d73b787d4e02cff28a963e859131467b3",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/simple-login/documentation",
+  "subject_id": "uv_simple_login_documentation_885f248"
+}

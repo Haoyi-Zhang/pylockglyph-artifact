@@ -1,0 +1,18 @@
+{
+  "commit": "efee25587d6371bcf55532aa3759054ce540e4e5",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ],
+  "license_status": "Apache-2.0 verified from LICENSE",
+  "lockfile_path": "hack/api-docs/requirements.txt",
+  "lockfile_sha256": "acfae2a1b6ff4cf73579c0c54a3bcdaed0e09a88e95b5806e433c01e8894ef47",
+  "manager_family": "pip-tools",
+  "manifest_path": "hack/api-docs/requirements.in",
+  "manifest_sha256": "ece9eac338850532944d7237039d2efc9d63749c91c642d5d858290add96570e",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/external-secrets/external-secrets",
+  "subject_id": "piptools_external_secrets_api_docs_efee255"
+}

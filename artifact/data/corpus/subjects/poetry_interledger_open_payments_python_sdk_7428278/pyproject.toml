@@ -1,0 +1,31 @@
+[project]
+name = "open-payments-sdk"
+version = "0.1.0"
+description = "Python SDK implementation for open-payments API"
+authors = [
+    {name = "Yiannis Giannelos",email = "johngiannelos@gmail.com"},
+    {name = "Elijah Okello", email = "elijahokello90@gmail.com"},
+    {name = "Kasweka Michael Mukoko", email = "kaswekamukoko@gmail.com"}
+]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "httpx (>=0.28.1,<0.29.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "cryptography (>=45.0.4,<46.0.0)",
+    "http-message-signatures (>=0.6.1,<0.7.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.13"
+isort = "^6.0.0"
+black = "^25.1.0"
+pyflakes = "^3.2.0"
+datamodel-code-generator = "^0.28.1"
+pytest = "^8.3.4"
+pyyaml = "^6.0.2"
+

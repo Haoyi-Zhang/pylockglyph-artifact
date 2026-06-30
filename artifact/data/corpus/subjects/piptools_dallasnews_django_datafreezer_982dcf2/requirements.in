@@ -1,0 +1,4 @@
+Django~=1.10
+requests
+beautifulsoup4~=4.5.1
+django-dynamic-formsets

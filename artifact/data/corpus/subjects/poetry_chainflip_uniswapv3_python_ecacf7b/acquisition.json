@@ -1,0 +1,18 @@
+{
+  "commit": "ecacf7b5046fb1936814e1607b2224697a4ff900",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "d9b9bdb8569b419dd891bfd269253fb946c08f6fa1b5ce96250992ffae6a0f4d"
+    }
+  ],
+  "license_status": "MIT-style license verified from raw LICENSE",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "0c0a09180232076beb16f1c47e871e11effeb1bb6fb4c19dbec2ca0ceb62c001",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "a11995e767af0e9f35bef584419fa22f25cb0846c4e1d32252f056f66b630509",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/chainflip-io/chainflip-uniswapV3-python",
+  "subject_id": "poetry_chainflip_uniswapv3_python_ecacf7b"
+}

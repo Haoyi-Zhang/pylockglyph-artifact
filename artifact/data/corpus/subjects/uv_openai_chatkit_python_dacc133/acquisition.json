@@ -1,0 +1,18 @@
+{
+  "commit": "dacc133c280b39b9334d06ea73f0f1c199e59927",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    }
+  ],
+  "license_status": "Apache-2.0 verified from repository page/raw LICENSE",
+  "lockfile_path": "uv.lock",
+  "lockfile_sha256": "3f37dc83c4f170be8c67df51b24e99a9784b5d6a2955c1579c554337effb67ef",
+  "manager_family": "uv",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "218ef06a54ac279a0879c4670673bcd429ed57bb5d783b54ce723bbe70903ebb",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/openai/chatkit-python",
+  "subject_id": "uv_openai_chatkit_python_dacc133"
+}

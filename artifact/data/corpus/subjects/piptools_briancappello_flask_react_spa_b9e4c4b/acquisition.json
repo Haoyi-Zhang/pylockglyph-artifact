@@ -1,0 +1,18 @@
+{
+  "commit": "b9e4c4b6b27e22e4273d4b4857d78717cdbdc1cc",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "529ef0bf47ed35fdc80f92f31c7dab45c5d311f69570e040ead190c2837acd47"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE",
+  "lockfile_path": "requirements.txt",
+  "lockfile_sha256": "a78acf7ebd47a246e21cf230e4c7668a3e03df0dad388c39e9c0fe6902b80214",
+  "manager_family": "pip-tools",
+  "manifest_path": "requirements.in",
+  "manifest_sha256": "a0893ba1e2363f7451404ded20e79a57dc44db5c87489a7e495efd98916b5f73",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/briancappello/flask-react-spa",
+  "subject_id": "piptools_briancappello_flask_react_spa_b9e4c4b"
+}

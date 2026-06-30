@@ -1,0 +1,60 @@
+subject_id,manager_family,package_name,primary_version,secondary_version,identity_match,version_match,source_presence_match,integrity_presence_match,dependency_presence_match,raw_field_basis,status
+uv_fasttrackpy_01d3fdf,uv,aligned-textgrid,0.8.1,0.8.1,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,altair,6.0.0,6.0.0,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,annotated-types,0.7.0,0.7.0,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,anyio,4.12.1,4.12.1,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,appnope,0.1.4,0.1.4,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,argon2-cffi,25.1.0,25.1.0,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,argon2-cffi-bindings,25.1.0,25.1.0,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,arrow,1.4.0,1.4.0,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,asttokens,3.0.1,3.0.1,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,async-lru,2.1.0,2.1.0,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,attrs,25.4.0,25.4.0,True,True,True,True,True,uv.lock package table,pass
+uv_fasttrackpy_01d3fdf,uv,babel,2.18.0,2.18.0,True,True,True,True,True,uv.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,colorama,0.4.6,0.4.6,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,exceptiongroup,1.2.2,1.2.2,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,iniconfig,2.0.0,2.0.0,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,packaging,24.2,24.2,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,pillow,11.1.0,11.1.0,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,pluggy,1.5.0,1.5.0,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,pytest,8.3.5,8.3.5,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,ruff,0.11.0,0.11.0,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,tomli,2.2.1,2.2.1,True,True,True,True,True,pdm.lock package table,pass
+pdm_d3x_sd_parsers_0949676,pdm,types-pillow,10.2.0.20240822,10.2.0.20240822,True,True,True,True,True,pdm.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,astroid,3.3.8,3.3.8,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,attrs,25.1.0,25.1.0,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,black,25.1.0,25.1.0,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,certifi,2025.1.31,2025.1.31,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,charset-normalizer,3.4.1,3.4.1,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,click,8.1.8,8.1.8,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,colorama,0.4.6,0.4.6,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,coverage,7.6.10,7.6.10,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,dill,0.3.9,0.3.9,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,exceptiongroup,1.2.2,1.2.2,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,filelock,3.17.0,3.17.0,True,True,True,True,True,poetry.lock package table,pass
+poetry_pycap_b1cf4ae,poetry,ghp-import,2.1.0,2.1.0,True,True,True,True,True,poetry.lock package table,pass
+pdm_project_pdm_ad49b1d,pdm,anyio,4.13.0,4.13.0,True,True,True,True,True,pdm.lock package table,pass
+pdm_project_pdm_ad49b1d,pdm,anysqlite,0.0.5,0.0.5,True,True,True,True,True,pdm.lock package table,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,sgp4,2.22,2.22,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,blinker,1.9.0,1.9.0,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,click,8.1.8,8.1.8,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,flask,3.1.0,3.1.0,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,itsdangerous,2.2.0,2.2.0,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,jinja2,3.1.5,3.1.5,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,markupsafe,3.0.2,3.0.2,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,pyjwt,2.10.1,2.10.1,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_tong89_smartnode_3d8db92,pip-tools,werkzeug,3.1.3,3.1.3,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+pipenv_zarmory_good_8cc60d7,pipenv,python-baseconv,1.2.2,1.2.2,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+piptools_python_pyperformance_1d3e217,pip-tools,psutil,7.0.0,7.0.0,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_python_pyperformance_1d3e217,pip-tools,pyperf,2.10.0,2.10.0,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+piptools_rmax_scrapy_inline_requests_2cbbb66,pip-tools,alabaster,0.7.8,0.7.8,True,True,True,True,True,requirements-style pinned line and continuation hashes,pass
+pipenv_gillescastel_inkscape_figures_02deea6,pipenv,click,7.0,7.0,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_gillescastel_inkscape_figures_02deea6,pipenv,inotify,0.2.10,0.2.10,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_gillescastel_inkscape_figures_02deea6,pipenv,nose,1.3.7,1.3.7,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_gillescastel_inkscape_figures_02deea6,pipenv,pyperclip,1.7.0,1.7.0,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_lightrush_cli_template_ea2ceeb,pipenv,click,8.0.3,8.0.3,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_joshfinnie_papi_fdf0551,pipenv,gunicorn,19.9.0,19.9.0,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_joshfinnie_papi_fdf0551,pipenv,webob,1.8.5,1.8.5,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_tateishi_ledger_parser_ec80021,pipenv,regex,2023.12.25,2023.12.25,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_tateishi_ledger_parser_ec80021,pipenv,six,1.16.0,1.16.0,True,True,True,True,True,Pipfile.lock default/develop package entry,pass
+pipenv_tateishi_ledger_parser_ec80021,pipenv,transitions,0.9.0,0.9.0,True,True,True,True,True,Pipfile.lock default/develop package entry,pass

@@ -1,0 +1,18 @@
+{
+  "commit": "3d8db92a23f27885f532fb64c71f24941adbe40b",
+  "license_files": [
+    {
+      "path": "LICENSE_EVIDENCE.txt",
+      "sha256": "7679077128847aa2d018b3c2c3f40c3a705e3db6b97bb81a19cb5cd85c855285"
+    }
+  ],
+  "license_status": "MIT verified from fetched LICENSE excerpt",
+  "lockfile_path": "requirements.txt",
+  "lockfile_sha256": "51493f543a13cf1cd665c35466b51f7a81173a9c3638be1be09612afb59083fb",
+  "manager_family": "pip-tools",
+  "manifest_path": "requirements.in",
+  "manifest_sha256": "628d03053fa1fed32b390a28665dc94fee58bb2a68e14fea32a0566a531fc887",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/Tong89/smartNode",
+  "subject_id": "piptools_tong89_smartnode_3d8db92"
+}

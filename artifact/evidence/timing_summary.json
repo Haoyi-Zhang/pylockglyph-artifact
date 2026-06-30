@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds": 1.250524,
+  "median_subject_ms": 0.5856,
+  "p95_subject_ms": 42.7368,
+  "rounds": 3,
+  "subject_parses": 123,
+  "subjects_per_second": 98.36
+}

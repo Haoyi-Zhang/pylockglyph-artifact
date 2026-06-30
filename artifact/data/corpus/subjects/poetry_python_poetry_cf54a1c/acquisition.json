@@ -1,0 +1,18 @@
+{
+  "commit": "cf54a1c046762f0633eed1621f4c6fe36bca3ae0",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "1786f071a510648a24695f295117f02bae0bbf0fb7c6730aafe9c93a3e4bf7ee"
+    }
+  ],
+  "license_status": "MIT verified from repository/raw LICENSE",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "ac31c1ccd65066072199bc2048e729efa0c16143f62d55a0c06bacbae0cfa21e",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "ecfe5cfd1c9d61eb8317132e47476737104b3268f9e66cc8b8274b1913ae9dd1",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/python-poetry/poetry",
+  "subject_id": "poetry_python_poetry_cf54a1c"
+}

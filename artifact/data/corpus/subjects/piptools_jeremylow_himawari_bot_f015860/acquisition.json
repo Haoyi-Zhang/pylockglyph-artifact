@@ -1,0 +1,18 @@
+{
+  "commit": "f0158604a0d7433205be2bc4d8c6a49a4f211f83",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "fd01a16a9aeb24a1a1ee44d2c5c9eea1f51dce569a79d40f51b07954217e10b4"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE",
+  "lockfile_path": "requirements.txt",
+  "lockfile_sha256": "2fc261e0f03ee8694b5e0765a25fc86a2bc26d9e22300d8b9203c9d8b879de94",
+  "manager_family": "pip-tools",
+  "manifest_path": "requirements.in",
+  "manifest_sha256": "0fa727a117dcdfd286231dde5c80dd0d763d0ae37e827c128cd1519fc720e3a7",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/jeremylow/himawari_bot",
+  "subject_id": "piptools_jeremylow_himawari_bot_f015860"
+}

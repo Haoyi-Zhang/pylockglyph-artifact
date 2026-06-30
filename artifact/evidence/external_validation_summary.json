@@ -1,0 +1,22 @@
+{
+  "agreement_rate": 0.333333,
+  "classification_counts": {
+    "external_tool_more_permissive_than_obligation_proxy": 7,
+    "external_tool_parse_or_environment_failure": 1,
+    "tool_processed_predicted_admissible_pair": 3,
+    "tool_rejected_predicted_inadmissible_pair": 1,
+    "unsupported_manager_format": 18
+  },
+  "disagreements": 8,
+  "findings": [],
+  "lock_sha256": "469b372f16865828c36f388907c26a63634d03efec7310e65e0e79d29fdb3c6d",
+  "manager_families": 5,
+  "prediction_drifts": 0,
+  "processed_external_runs": 10,
+  "result_rows": 30,
+  "selected_subjects": 15,
+  "status": "pass",
+  "supported_run_attempts": 12,
+  "tools": 2,
+  "unsupported_runs": 18
+}

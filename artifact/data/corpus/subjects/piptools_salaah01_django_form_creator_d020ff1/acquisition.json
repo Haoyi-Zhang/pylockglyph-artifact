@@ -1,0 +1,18 @@
+{
+  "commit": "d020ff124dc2860855004c416a50dd8040d94205",
+  "license_files": [
+    {
+      "path": "LICENSE_EVIDENCE.txt",
+      "sha256": "873a896d22776b8617662e430ddf493bd927d0b2b93c2f81a5a1eecad12d2ff3"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE header",
+  "lockfile_path": "requirements.txt",
+  "lockfile_sha256": "3ebf2ba0db56e6f8af8fbb6a074a9f6e130bb3e17d9e5925d4bb8604bdbe07cd",
+  "manager_family": "pip-tools",
+  "manifest_path": "requirements.in",
+  "manifest_sha256": "8864de8b5187da4595544e6b8c0ff75305989ea84ab4c9bdc9ba5c1ef93ce934",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/Salaah01/django-form-creator",
+  "subject_id": "piptools_salaah01_django_form_creator_d020ff1"
+}

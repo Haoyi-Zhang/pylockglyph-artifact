@@ -1,0 +1,16 @@
+[project]
+name = "game-of-life-pygame"
+version = "0.1.0"
+description = "Simple implementation of Conway's Game of Life using Pygame."
+authors = [{ name = "bischoff-m", email = "bischoff_m@aim.com" }]
+dependencies = ["pygame>=2.6.0", "numpy>=2.0.1"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+dev = "python src/main.py"

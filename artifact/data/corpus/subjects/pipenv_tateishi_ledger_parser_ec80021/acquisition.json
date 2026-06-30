@@ -1,0 +1,18 @@
+{
+  "commit": "ec80021ac0651db98fdf9a86262b46aba9801f61",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "65d8a5391f00ef72c5ae1a5cb65af13589315f114409c8a073b7c464536795ed"
+    }
+  ],
+  "license_status": "MIT verified from pinned repository LICENSE",
+  "lockfile_path": "Pipfile.lock",
+  "lockfile_sha256": "ef42dad0a5e273734d4970f2ea7e6a6cba93e34d50d38bbddf715e26134d50f7",
+  "manager_family": "pipenv",
+  "manifest_path": "Pipfile",
+  "manifest_sha256": "7b84b835ee83ddd483ef57cb5ee3b3dd160b5ed2f04971ef4a62a7bc628024d9",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/tateishi/ledger-parser",
+  "subject_id": "pipenv_tateishi_ledger_parser_ec80021"
+}

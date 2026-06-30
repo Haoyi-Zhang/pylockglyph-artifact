@@ -1,0 +1,47 @@
+{
+  "adversarial_by_obligation": {
+    "dependency_edge": 16,
+    "identity": 34,
+    "integrity": 21,
+    "manager_metadata": 21,
+    "manifest_agreement": 21,
+    "resolver_epoch": 21,
+    "source": 21,
+    "version": 21
+  },
+  "adversarial_cases": 176,
+  "expected_reject_cases": 725,
+  "false_accepts": 0,
+  "file_removal_cases": 155,
+  "file_removal_diagnostic_rows": 155,
+  "findings": [],
+  "metamorphic_weaken_cases": 155,
+  "mutation_cases": 239,
+  "mutation_families": {
+    "empty_inventory": 21,
+    "parser_state": 21,
+    "partial_integrity": 21,
+    "remove_dependency_edge": 8,
+    "remove_identity": 21,
+    "remove_integrity": 21,
+    "remove_manager_metadata": 21,
+    "remove_manifest_agreement": 21,
+    "remove_resolver_epoch": 21,
+    "remove_source": 21,
+    "remove_version": 21,
+    "source_relocation": 21
+  },
+  "obligation_count": 8,
+  "obligations_covered": [
+    "dependency_edge",
+    "identity",
+    "integrity",
+    "manager_metadata",
+    "manifest_agreement",
+    "resolver_epoch",
+    "source",
+    "version"
+  ],
+  "preservation_cases": 246,
+  "status": "pass"
+}

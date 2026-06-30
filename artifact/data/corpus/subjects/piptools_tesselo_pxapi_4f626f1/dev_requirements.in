@@ -1,0 +1,8 @@
+isort
+flake8
+lxml
+black
+pre-commit
+semgrep<0.65.0
+bandit
+pydocstyle

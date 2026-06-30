@@ -1,0 +1,18 @@
+{
+  "commit": "02deea60751102641a7d6d9c6e8b535c0255f2eb",
+  "license_files": [
+    {
+      "path": "LICENSE_EVIDENCE.txt",
+      "sha256": "72abd55289cb3e79b18385b04927548e82f86c4053ad1753bd92b039f75ff66f"
+    }
+  ],
+  "license_status": "MIT verified from public repository LICENSE evidence",
+  "lockfile_path": "Pipfile.lock",
+  "lockfile_sha256": "6d90ce9a2dad0157c17b16d771c3c32d231b882589f005b78e186c31942d142f",
+  "manager_family": "pipenv",
+  "manifest_path": "Pipfile",
+  "manifest_sha256": "eebe3c2533dbdaeafea5fd536ae108a92ecb102d1be8cba58fb37e338b007dfa",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/gillescastel/inkscape-figures",
+  "subject_id": "pipenv_gillescastel_inkscape_figures_02deea6"
+}

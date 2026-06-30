@@ -1,0 +1,18 @@
+{
+  "commit": "5a11c17f5ecf0568bdb73b4baf6fb08ff0184f39",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "187fc0ea80830e56b62c01f6f85a4cece81ab713a0b65e4e54fad4b44255a393"
+    }
+  ],
+  "license_status": "MIT verified from LICENSE",
+  "lockfile_path": "requirements.txt",
+  "lockfile_sha256": "9179ff6a913e52af50b5a203b5fb0a05646064bfcf25206c6c322687b22f13db",
+  "manager_family": "pip-tools",
+  "manifest_path": "requirements.in",
+  "manifest_sha256": "c474c05db3b16a9243a35e8df511082317f41c3cdf4c55e01438c23f4968eee6",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/Miserlou/Zappa",
+  "subject_id": "piptools_miserlou_zappa_5a11c17"
+}

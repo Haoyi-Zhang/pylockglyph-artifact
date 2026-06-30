@@ -1,0 +1,18 @@
+{
+  "commit": "423841810f90e5b2151d76595de4c2bb9f324a26",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "1e950a32358912876fcd3ea0bdd975c9ea8a7822eddc3cda662817c3abe99b1c"
+    }
+  ],
+  "license_status": "LGPL-3.0-or-later verified from public repository LICENSE evidence",
+  "lockfile_path": "poetry.lock",
+  "lockfile_sha256": "9c0fd42708426445d0d407aa34166fc345b4e0f42dffff15d96a4548fe330339",
+  "manager_family": "poetry",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "b7883a7eb8808725d6fc85f8f0707a21b0604c05ebe00779a6e24841130b7ac7",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/py-mine/PyMine-Net",
+  "subject_id": "poetry_py_mine_pyminenet_4238418"
+}

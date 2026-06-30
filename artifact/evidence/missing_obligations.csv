@@ -1,0 +1,6 @@
+manager_family,pairs,identity,version,source,integrity,resolver_epoch,dependency_edge,manager_metadata,manifest_agreement
+pdm,5,0,0,4,0,0,1,0,0
+pip-tools,15,0,0,15,14,0,15,0,4
+pipenv,5,0,0,0,0,0,5,0,0
+poetry,10,0,0,9,2,0,0,0,0
+uv,6,0,0,0,0,0,0,0,0

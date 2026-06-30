@@ -1,0 +1,26 @@
+\begin{tabular}{llrr}
+\toprule
+Consumer & Baseline & Accepts & Over-admits \\
+\midrule
+SBOM inventory & Parser & 41/41 & 28 \\
+SBOM inventory & Name/version & 41/41 & 28 \\
+SBOM inventory & SBOM proxy & 13/41 & \textbf{0} \\
+SBOM inventory & Vuln graph proxy & 8/41 & \textbf{0} \\
+SBOM inventory & Repro lock proxy & 13/41 & \textbf{0} \\
+Vulnerability matching & Parser & 41/41 & 33 \\
+Vulnerability matching & Name/version & 41/41 & 33 \\
+Vulnerability matching & SBOM proxy & 13/41 & 5 \\
+Vulnerability matching & Vuln graph proxy & 8/41 & \textbf{0} \\
+Vulnerability matching & Repro lock proxy & 13/41 & 5 \\
+Reproducible input & Parser & 41/41 & 28 \\
+Reproducible input & Name/version & 41/41 & 28 \\
+Reproducible input & SBOM proxy & 13/41 & \textbf{0} \\
+Reproducible input & Vuln graph proxy & 8/41 & \textbf{0} \\
+Reproducible input & Repro lock proxy & 13/41 & \textbf{0} \\
+Dependency graph & Parser & 41/41 & 33 \\
+Dependency graph & Name/version & 41/41 & 33 \\
+Dependency graph & SBOM proxy & 13/41 & 5 \\
+Dependency graph & Vuln graph proxy & 8/41 & \textbf{0} \\
+Dependency graph & Repro lock proxy & 13/41 & 5 \\
+\bottomrule
+\end{tabular}

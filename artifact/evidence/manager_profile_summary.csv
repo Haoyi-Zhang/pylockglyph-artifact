@@ -1,0 +1,7 @@
+manager_family,pairs,inventory_eligible,dependency_graph_eligible
+pdm,5,1,1
+pip-tools,15,0,0
+pipenv,5,5,0
+poetry,10,1,1
+uv,6,6,6
+Total,41,13,8

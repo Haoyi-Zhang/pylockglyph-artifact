@@ -1,0 +1,59 @@
+{
+  "consumer_baseline_decisions": 1640,
+  "consumer_baseline_over_admissions": 682,
+  "consumer_baseline_under_admissions": 10,
+  "controlled_cases": 971,
+  "controlled_outcomes": [
+    {
+      "cases": 155,
+      "pass": 155,
+      "suite": "file_removals"
+    },
+    {
+      "cases": 176,
+      "pass": 176,
+      "suite": "adversarial_vectors"
+    },
+    {
+      "cases": 319,
+      "pass": 319,
+      "suite": "metamorphic"
+    },
+    {
+      "cases": 239,
+      "pass": 239,
+      "suite": "mutations"
+    },
+    {
+      "cases": 41,
+      "pass": 41,
+      "suite": "formatting"
+    },
+    {
+      "cases": 41,
+      "pass": 41,
+      "suite": "parser_agreement"
+    }
+  ],
+  "downstream_consumers": 4,
+  "excluded_rows": 16,
+  "manager_counts": {
+    "pdm": 5,
+    "pip-tools": 15,
+    "pipenv": 5,
+    "poetry": 10,
+    "uv": 6
+  },
+  "package_records": 2050,
+  "profiles": {
+    "dependency_graph": 8,
+    "inventory": 13
+  },
+  "projection_decisions": 820,
+  "projection_over_admissions": 341,
+  "proof_decisions": 2560,
+  "screened_rows": 57,
+  "separation_witnesses": 100,
+  "status": "pass",
+  "subjects": 41
+}

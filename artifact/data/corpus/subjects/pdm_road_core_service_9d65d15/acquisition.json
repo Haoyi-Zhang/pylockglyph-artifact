@@ -1,0 +1,18 @@
+{
+  "commit": "9d65d15a4d1dec47e5aac15ee86fef39db975006",
+  "license_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "license_status": "Apache-2.0 verified from raw LICENSE",
+  "lockfile_path": "pdm.lock",
+  "lockfile_sha256": "02a73db15778078284fe80e6cd1f6f16089e9daff5edb8b84a817fbd3af2be1b",
+  "manager_family": "pdm",
+  "manifest_path": "pyproject.toml",
+  "manifest_sha256": "0ce733e7e683059264fb4fe67854976a21676a1928cf34820b8e3ed329bde9e4",
+  "materialization": "exact public files stored locally for deterministic replay",
+  "repository": "https://github.com/road-core/service",
+  "subject_id": "pdm_road_core_service_9d65d15"
+}

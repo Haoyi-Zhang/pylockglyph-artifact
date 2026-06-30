@@ -1,0 +1,92 @@
+{
+  "baseline_over_admissions": 682,
+  "baseline_under_admissions": 10,
+  "consumer_matrix_rows": 1640,
+  "consumer_summary_rows": 40,
+  "consumer_support": {
+    "full_dependency_graph": [
+      "dependency_edge",
+      "identity",
+      "integrity",
+      "manager_metadata",
+      "manifest_agreement",
+      "resolver_epoch",
+      "source",
+      "version"
+    ],
+    "reproducible_input": [
+      "identity",
+      "integrity",
+      "manager_metadata",
+      "manifest_agreement",
+      "resolver_epoch",
+      "source",
+      "version"
+    ],
+    "sbom_inventory": [
+      "identity",
+      "manager_metadata",
+      "manifest_agreement",
+      "source",
+      "version"
+    ],
+    "vulnerability_matching": [
+      "dependency_edge",
+      "identity",
+      "manager_metadata",
+      "manifest_agreement",
+      "source",
+      "version"
+    ]
+  },
+  "downstream_consumers": 4,
+  "findings": [],
+  "projection_summary_rows": 10,
+  "projection_support": {
+    "integrity": [
+      "integrity"
+    ],
+    "inventory": [
+      "identity",
+      "version"
+    ],
+    "manifest_subset": [
+      "manifest_agreement"
+    ],
+    "metadata": [
+      "manager_metadata"
+    ],
+    "parser": [],
+    "reproducible_lock": [
+      "identity",
+      "integrity",
+      "resolver_epoch",
+      "source",
+      "version"
+    ],
+    "resolver_metadata": [
+      "manager_metadata",
+      "resolver_epoch"
+    ],
+    "sbom_minimal": [
+      "identity",
+      "manager_metadata",
+      "source",
+      "version"
+    ],
+    "source_identity": [
+      "identity",
+      "source",
+      "version"
+    ],
+    "vulnerability_graph": [
+      "dependency_edge",
+      "identity",
+      "source",
+      "version"
+    ]
+  },
+  "projections": 10,
+  "status": "pass",
+  "subjects": 41
+}

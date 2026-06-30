@@ -1,0 +1,12 @@
+{
+  "decisions": 2560,
+  "definition_failures": 0,
+  "evidence_types": 8,
+  "managers": 5,
+  "monotonicity_failures": 0,
+  "profile_refinement_failures": 0,
+  "profiles": 2,
+  "status": "pass",
+  "typed_non_substitution_failures": 0,
+  "vectors_per_cell": 256
+}

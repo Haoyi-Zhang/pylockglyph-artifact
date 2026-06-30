@@ -1,0 +1,10 @@
+{
+  "classification_counts": {
+    "projection_requires_nonconsumer_evidence": 10
+  },
+  "false_negative_tool_cases": 0,
+  "findings": [],
+  "interpretation": "rows are projection-baseline comparisons against formal consumer proxies, not external tool false negatives",
+  "status": "pass",
+  "under_admission_rows": 10
+}
